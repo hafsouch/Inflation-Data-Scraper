@@ -18,7 +18,7 @@ import re
 import datetime
 import matplotlib.pyplot as plt
 import datetime
-%matplotlib inline
+
 
 
 UnixTime = int(time.time())
@@ -30,7 +30,7 @@ URL = 'https://www.inflation.eu/en/inflation-rates/LAND/historic-inflation/cpi-i
 
 ############ Variables ##########
 Countries = ['germany', 'great-britain', 'france', 'united-states']
-Jahre = list(range(1956, 2021))
+Jahre = list(range(2015, 2021))
 
 data = {
 'Year': [],
